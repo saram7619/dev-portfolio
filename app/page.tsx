@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar"
 import Hero from "../components/Hero"
 import Skills from "../components/Skills"
 import Projects from "../components/Projects"
-import Page from "../feedback/page"
+import Feedback from "./feedback/page"
 import Footer from "../components/Footer"
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
       <Hero />
       <Skills />
       <Projects />
-      <Page />
+      <Feedback />
       <Footer />
     </main>
   )
