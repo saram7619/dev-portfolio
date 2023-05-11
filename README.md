@@ -1,34 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Frontend Mentor - Single-page developer portfolio solution
 
-## Getting Started
+This is a solution to the Single-page developer portfolio challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+Table of contents
 
-First, run the development server:
+    Overview
+        The challenge
+        Screenshot
+        Links
+    My process
+        Built with
+        What I learned
+        Continued development
+        Useful resources
+    Author
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Overview
+The challenge
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Users should be able to:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+    Receive an error message when the form is submitted if:
+        Any field is empty
+        The email address is not formatted correctly
+    View the optimal layout for the interface depending on their device's screen size
+    See hover and focus states for all interactive elements on the page
+    Bonus: Hook the form up so it sends and stores the user's enquiry (you can use a spreadsheet or Airtable to save the enquiries)
+    Bonus: Add your own details (image, skills, projects) to replace the ones in the design
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Screenshot
 
-## Learn More
+![](./screenshot desktop Frontend Developer Portfolio.jpg) ![](./screenshot tablet Frontend Developer Portfolio.jpg) ![](./screenshot mobile Frontend Developer Portfolio.jpg)
+My process
+Built with
 
-To learn more about Next.js, take a look at the following resources:
+    Semantic HTML5 markup
+    CSS custom properties
+    Flexbox
+    CSS Grid
+    Mobile-first workflow
+    [Prisma] (https://www.prisma.io/) - Node.js and TypeScript ORM for Databases
+    [Mongodb] (https://www.mongodb.com/) - NoSQL Database
+    [Typescript] (https://www.typescriptlang.org/) - Programming Language
+    React - JS library
+    Next.js - React framework
+    Tailwind css - For styles
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+What I learned
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+I learned how to use tailwind css and how to use it with next.js I learned how to use prisma and mongodb to create a database and connect it to the frontend I learned how to use NextJS to create a server side rendered website with API routes
+Continued development
 
-## Deploy on Vercel
+I want to continue to learn how to use tailwind css and how to use it with next.js. This portfolio was originally styled using css and I wanted to try tailwind css, Originally I was going to use Airtable to store the users details and message but I wanted to try using a database and I found prisma and mongodb. I want to continue to learn how to use prisma and mongodb to create a database and connect it to the frontend.
+I want to continue to learn how to use NextJS to create a server side rendered website with API routes.
+Useful resources
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    [Dave Gray Youtube] - This helped me with tailwind css and next.js. I really liked this video and will use it going forward.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Author
+
+    Frontend Mentor - @saram7619

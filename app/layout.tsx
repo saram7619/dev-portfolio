@@ -21,6 +21,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en' className={space_grotesk.className}>
+      <head>
+        <link rel="favicon icon" href="/images/favicon-32x32.png" />
+      </head>
       <body className='dark:bg-black text-white'>{children}</body>
     </html>
   )

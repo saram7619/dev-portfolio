@@ -13,7 +13,7 @@ export default function Footer() {
           </Link>
         </h1>
         <div className='flex flex-row justify-center sm:justify-evenly align-middle gap-4 text-white text-4xl lg:text-5xl'>
-          <Link href='#' className='text-white/90 hover:text-green'>
+          <Link href='#' className='text-white/90 hover:fill-green'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='25'

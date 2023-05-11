@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import Link from "next/link"
+//import Link from "next/link"
 import ProfilePic from "./ProfilePic"
 
 const Hero = () => {
@@ -17,11 +17,11 @@ const Hero = () => {
           Based in the UK, I'm a front-end developer passionate about building
           accessible web apps that users love.
         </h3>
-        <Link
-          href='/feedback/'
+        <a
+          href='#feedback'
           className='flex flex-col text-white text-center underline-offset-8 underline decoration-green decoration-2 md:text-left hover:text-green'>
           CONTACT ME
-        </Link>
+        </a>
       </article>
       <ProfilePic />
       <div className='absolute top-[11.25rem] -translate-x-[17rem] md:top-[3.75rem] md:-translate-x-[25rem] lg:top-[2.5rem] lg:-translate-x-[30rem] z-30'>

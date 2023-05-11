@@ -3,6 +3,7 @@
 import { useState, FormEvent, ChangeEvent } from "react"
 import { useRouter } from "next/navigation"
 import React from "react"
+import Link from "next/link"
 
 const initState = {
   name: "",
@@ -53,10 +54,12 @@ export default function Feedback() {
   const canSave = [...Object.values(data)].every(Boolean)
 
   const content = (
-    <section className='bg-gray flex flex-col mx-auto max-w-[1110px] justify-center p-6 items-center gap-8'>
+    <section
+      id='feedback'
+      className='bg-gray flex flex-col mx-auto max-w-[1110px] justify-center p-6 items-center gap-8'>
       <div className='lg:flex lg:flex-row lg:justify-between lg:w-full'>
         <div className='lg:w-1/2'>
-          <h2 className='text-4xl font-bold mb-5 md:text-[72px] lg:text-[88px]'>
+          <h2 className='text-4xl font-bold mb-5 py-6 md:text-[72px] lg:text-[88px]'>
             Contact Us
           </h2>
           <h3 className='mb-[50px] text-white-2 max-w-[445px]'>
@@ -149,7 +152,6 @@ export default function Feedback() {
             </svg>
           </div>
         </form>
-        <hr className='mx-auto max-w-[1110px] border-slate-200 dark:border-slate-800 my-[2.5rem]' />
       </div>
     </section>
   )

@@ -40,11 +40,11 @@ const Projects = () => {
       <div className='container mx-auto max-w-[1110px] grid'>
         <div className='flex flex-row justify-between py-8'>
           <h2 className='text-white text-left text-4xl font-bold'>Projects</h2>
-          <Link
-            href='/feedback'
+          <a
+            href='#feedback'
             className='text-white text-right underline-offset-[10px] underline decoration-green decoration-2 hover:text-green'>
             CONTACT ME
-          </Link>
+          </a>
         </div>
         <div className='grid md:grid-cols-2 gap-4'>
           {PROJECT_DATA.map((project) => (
